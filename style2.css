@@ -5,7 +5,7 @@
   /*max-width: 600px;*/
   min-width: 600px;
   position: fixed;
-  right:40px;
+  right:0px;
   top:150px;
   margin: auto;
 }
@@ -136,4 +136,19 @@
   .header-right {
     float: none;
   }
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
 }
